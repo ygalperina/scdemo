@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-context('fsTable Search', () => {
+context('File System Search Verifications', () => {
     before(() => {
         cy.visit(cy.conf.baseUrl);
     })

@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-context('fsTable Misc', () => {
+context('File System Table Misc Verifications', () => {
   before(() => {
     cy.visit(cy.conf.baseUrl);
   })

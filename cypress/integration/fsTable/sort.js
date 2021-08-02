@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-context('fsTable Sort', () => {
+context('File System Table Sort Verifications', () => {
     before(() => {
         cy.visit(cy.conf.baseUrl);
     })
