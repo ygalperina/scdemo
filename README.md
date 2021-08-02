@@ -26,6 +26,10 @@ NOTE: for other ways to install refer to Cypress documentation
 ### Local CL run 
     
     $ npx cypress run --spec "cypress/integration/**/*.js"
+    
+### Run package.json script
+
+     $ npm run runRegressionLocal
      
 for more options refer to cypress documenation:
     https://docs.cypress.io/guides/guides/command-line.html#How-to-run-commands 
