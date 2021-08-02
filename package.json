@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
-    "runRegressionLocal": "cypress run --spec \"cypress/integration/fsTable/*\" --reporter mochawesome",
-    "runRegressionWeb": "cypress run --spec \"cypress/integration/fsTable/*\" --env configFile=awsinstance --reporter mochawesome",
+    "runRegressionLocal": "cypress run --spec \"cypress/integration/**/*\" --reporter mochawesome",
+    "runRegressionWeb": "cypress run --spec \"cypress/integration/**/*\" --env configFile=awsinstance --reporter mochawesome",
     "run": "cypress run --reporter mochawesome",
     "cleanup": "rm -fr mochawesome-report",
     "merge_reports": "mochawesome-merge --reportDir mochawesome-report -o mochawesome-report/output.json",
