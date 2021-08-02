@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://mn1auto.eng.vimo.com",
+  "baseUrl": "http://18.232.21.164:3000/",
   "output": "reports/output/",
   "env": {
     "name": "awsinstance"
