@@ -22,14 +22,10 @@ Node.js 12 or 14 and above
 NOTE: for other ways to install refer to Cypress documentation
 
 ## Running Tests
-
-### Local with Desktop runner
-     
-     $ npx cypress open
      
 ### Local CL run 
     
-    $ npx cypress run --browser chrome --spec "cypress/integration/**/*.js"
+    $ npx cypress run --spec "cypress/integration/**/*.js"
      
 for more options refer to cypress documenation:
     https://docs.cypress.io/guides/guides/command-line.html#How-to-run-commands 
