@@ -5,3 +5,7 @@ Mochawesome is a Mocha Reporter that generates standalone HTML/CSS reports to vi
 ![alt text](mochawesome_report.png "Mochawesome Sample Report")
 
 https://www.npmjs.com/package/mochawesome-report-generator
+
+## Creating reports
+
+Refer to package.json scripts for cleaning up, merging, and generating Mochawesome reports

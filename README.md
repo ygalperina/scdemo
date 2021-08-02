@@ -47,6 +47,9 @@ If environment variable is not provided **local** is default. This can be change
 ## Creating Scenarios
 [Creating Scenarios](doc/CreatingScenarios.md)
 
+## Generating Reports
+[Generating Reports](doc/Reporting.md)
+
 ## Known issues and workarounds for headless runs in Jenkins
 
 1. https://github.com/cypress-io/cypress/issues/3491
