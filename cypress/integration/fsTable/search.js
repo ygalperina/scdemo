@@ -10,7 +10,6 @@ context('fsTable Search', () => {
         }
     });
 
-    const {_} = Cypress
     describe('Matching Search results verification', () => {
         it('matching search verification', () => {
 

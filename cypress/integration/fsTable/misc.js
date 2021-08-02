@@ -10,7 +10,6 @@ context('fsTable Misc', () => {
     }
   });
 
-  const {_} = Cypress
   describe('Misc fs table verifications', () => {
     it('fs table columns verification', () => {
         // check the tables' column labels
@@ -21,13 +20,6 @@ context('fsTable Misc', () => {
                 cy.log(JSON.stringify(table.columnLabels))
                 expect(table.columnLabels).to.deep.eq(cy.fsTableColumns);
             })
-
     })
-
-
-
-
-
-
   })
 });

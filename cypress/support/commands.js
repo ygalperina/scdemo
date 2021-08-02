@@ -24,5 +24,18 @@
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+Cypress.Commands.add("verifyFSTableSorted", (columnName, lastName) => {
+    cy.get('#fsTableArea') // table
+        .scrapeTable()
+        .then((table) => {
+
+            // test whether column(s) are sorted
+            expect(
+                table.isPropertySorted([columnName], ['asc']),
+                `${columnName} column is sorted in asc order`
+            ).to.be.true;
+        })
+})
+
 
 
