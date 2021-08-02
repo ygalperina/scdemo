@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://mn1auto.eng.vimo.com",
+  "output": "reports/output/",
+  "env": {
+    "name": "awsinstance"
+  }
+}

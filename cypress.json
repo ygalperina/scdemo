@@ -1,0 +1,18 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false,
+  "trashAssetsBeforeRuns": false,
+  "dev": true,
+  "projectId": "jux54a",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "mochawesome-report",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "screenshotOnRunFailure": false,
+  "screenshotsFolder": "mochawesome-report/assets/screenshots",
+  "videosFolder": "mochawesome-report/assets/videos"
+}
